@@ -1,0 +1,1 @@
+helpers has auth.js to help in hashing of passwords to make it secure

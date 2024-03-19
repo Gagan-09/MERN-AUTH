@@ -1,0 +1,20 @@
+1. npm init
+2. npm i express nodemon dotenv cors
+3. goto package.json and in scripts ---> "start": "nodemon index.js"
+
+NOTE : u can also use postman to test working (login etc)
+
+4. after creating mongodb---> npm i mongoose
+
+5. after creating register conditions in authController... Download react hot toast 
+    npm install react-hot-toast
+
+6. after setting up registeration and checking updates in database.....hash the password
+    npm i bcrypt
+
+7. After hashing the password ....install jsonwebtoken for tracking user activity on the app (cookies)
+    npm i jsonwebtoken cookie-parser
+
+NOTE ---  Also install the bootstrap
+
+8. npm i google-maps-react

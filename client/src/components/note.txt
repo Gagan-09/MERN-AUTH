@@ -1,0 +1,1 @@
+Navbar2 is for Login2 with no routes
