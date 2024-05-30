@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
+import "../App.css"
 
 export default function Login() {
   const navigate = useNavigate();
@@ -45,7 +46,7 @@ export default function Login() {
           <div className="container h-100">
             <div className="row d-flex justify-content-center align-items-center h-100">
               <div className="col-12 col-md-9 col-lg-7 col-xl-6">
-                <div className="card" style={{ borderRadius: "15px" }}>
+                <div className="card-name-2" style={{ borderRadius: "15px" }}>
                   <div className="card-body p-5">
                     <h2 className="text-uppercase text-center mb-4">Login</h2>
 

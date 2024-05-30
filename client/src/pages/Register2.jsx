@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import axios from "axios";
 import { toast } from "react-hot-toast";
 import { useNavigate, Link } from "react-router-dom";
+import "../App.css"
+
 
 export default function Register() {
   const navigate = useNavigate();
@@ -43,14 +45,14 @@ export default function Register() {
         style={{
           backgroundImage:
             "url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp')",
-          // "url('https://mdbcdn.b-cdn.net/img/Photos/new')",
+          
         }}
       >
         <div className="mask d-flex align-items-center h-100 gradient-custom-3">
           <div className="container h-100">
             <div className="row d-flex justify-content-center align-items-center h-100">
               <div className="col-12 col-md-9 col-lg-7 col-xl-6">
-                <div className="card" style={{ borderRadius: "15px" }}>
+                <div className="card-name" style={{ borderRadius: "15px" }}>
                   <div className="card-body p-5">
                     <h2 className="text-uppercase text-center mb-4">
                       Create an account
@@ -155,7 +157,7 @@ export default function Register() {
                         </button>
                       </div>
 
-                      <p className="text-center text-muted mt-5 mb-0">
+                      <p className="login-btn">
                         Have already an account?{" "}
                         <Link to="/login" className="fw-bold text-body">
                           <u>Login here</u>
